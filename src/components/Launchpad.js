@@ -160,7 +160,7 @@ return (
                 </div>
 
                 <div className=" l-svg-con1">
-                    <img className='l-svg1' src={lpad1} alt='image eror' />
+                    <img className='l-svg1' src={lpad1} alt='' />
                 </div>
             </div>
 
@@ -181,7 +181,7 @@ return (
                 </div>
 
                 <div className=" l-svg-con2">
-                    <img className='l-svg2' src={lpad2} alt='image eror' />
+                    <img className='l-svg2' src={lpad2} alt='' />
                 </div>
             </div>
 
@@ -202,7 +202,7 @@ return (
                 </div>
 
                 <div className="l-svg-con3">
-                    <img className=' l-svg3' src={lpad3} alt='image eror' />
+                    <img className=' l-svg3' src={lpad3} alt='' />
                 </div>
             </div>
 
@@ -224,7 +224,7 @@ return (
                 </div>
 
                 <div className="l-svg-con4">
-                    <img className='l-svg4' src={lpad4} alt='image eror' />
+                    <img className='l-svg4' src={lpad4} alt='' />
                 </div>
             </div>
 
