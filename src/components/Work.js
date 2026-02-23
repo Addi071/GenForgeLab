@@ -205,7 +205,7 @@ export const Work = () => {
             <p className='side-box-text'>We build websites that not only look exceptional but operate seamlessly. Our development services deliver reliable, scalable, and intuitive solutions for businesses of every scale. From concept to execution, we’ve got you covered.</p>
 
             <div className='side-box-flex'>
-              <img className='side-box-svg' src={code} alt='image eror' />
+              <img className='side-box-svg' src={code} alt='code' />
               <button className='side-box-btn' onClick={()=>{
                 document.getElementById('connect').scrollIntoView({behavior:'smooth'})
               }}> Connect with us</button>
@@ -235,7 +235,7 @@ export const Work = () => {
 
                 </div>
                 <div className='wordpress-right '>
-                  <img className='wordpress-img' src={settings} />
+                  <img className='wordpress-img' src={settings} alt='setting' />
                 </div>
               </div>
 
@@ -253,7 +253,7 @@ export const Work = () => {
             <div className=' seo-box' ref={seoRef}>
               <div className='seo-header'>
                 <h1 className='seo-heading'>SEO </h1>
-                <img className='seo-svg' src={search} />
+                <img className='seo-svg' src={search} alt='svg' />
               </div>
               <p className='seo-text '>Boost your digital presence with strategic, data-driven SEO solutions. We optimize your website to secure higher search rankings, expand visibility to the right audience, and attract high-quality organic traffic that drives real business growth.</p>
 
@@ -262,7 +262,7 @@ export const Work = () => {
             <div className=' plugin-box' ref={pluginRef}>
               <div className='plugin-header'>
                 <h1 className=' plugin-heading'>Plugin Development</h1>
-                <img className='plugin-svg' src={css} />
+                <img className='plugin-svg' src={css}  alt='plugin-svg'/>
               </div>
               <p className='plugin-text'>We develop custom plugins that integrate seamlessly with your system, extend functionality, improve performance, and enable smarter automation.</p>
 

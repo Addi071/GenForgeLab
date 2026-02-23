@@ -95,8 +95,8 @@ export const Hero = () => {
           <div className='w-card'>
             <h1 className='w-card-h'>CAFE DEJA VU</h1>
             <div className='w-imagesarea'>
-              <img className='w-workimg1' src={cafe1} />
-              <img className='w-workimg2' src={cafe2} />
+              <img className='w-workimg1' src={cafe1} alt='cafe' />
+              <img className='w-workimg2' src={cafe2} alt='cafe' />
             </div>
             <p className='w-card-p'>Serving brand stories with a clean and engaging web presence.</p>
           </div>
@@ -104,8 +104,8 @@ export const Hero = () => {
           <div className='w-card'>
             <h1 className='w-card-h'>PETSHIVE</h1>
             <div className='w-imagesarea'>
-              <img className='w-workimg1' src={pet2} />
-              <img className='w-workimg2' src={pet2} />
+              <img className='w-workimg1' src={pet1} alt='pet shop' />
+              <img className='w-workimg2' src={pet2} alt='pet shop' />
             </div>
             <p className='w-card-p'>Building a lovable online presence for modern pet brands.</p>
           </div>
@@ -113,8 +113,8 @@ export const Hero = () => {
           <div className='w-card'>
             <h1 className='w-card-h'>JAIHIND</h1>
             <div className='w-imagesarea'>
-              <img className='w-workimg1' src={cloth1} />
-              <img className='w-workimg2' src={cloth2} />
+              <img className='w-workimg1' src={cloth1} alt='clothing' />
+              <img className='w-workimg2' src={cloth2} alt='clothing' />
             </div>
             <p className='w-card-p'>Turning style into a smooth and scalable online store.</p>
           </div>

@@ -91,7 +91,7 @@ export const Footer = () => {
             <FaEnvelope />
           </a>
 
-          <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="icon-circle">
+          <a href="https://instagram.com/mr_khan_1706" target="_blank" rel="noopener noreferrer" className="icon-circle">
             <FaInstagram />
           </a>
         </div>
@@ -103,7 +103,7 @@ export const Footer = () => {
         </div>
 
         <div className='pp'>
-          <a href='#'>Privacy Policy</a>
+          <p>Privacy Policy</p>
         </div>
       </div>
 
