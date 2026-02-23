@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logo from '../assets/images/gfl22.png'
 import { FaPhoneAlt, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
@@ -73,7 +74,7 @@ export const Footer = () => {
 
       <div className='foot-low-1'>
         <div>
-          <img src="./gfl22.png" alt="logo" className='logo' />
+          <img src={logo} alt="logo" className='logo' />
         </div>
 
         <div className='foottxt1'>
