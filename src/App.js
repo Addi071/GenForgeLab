@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Navbaar } from './components/Navbaar';
+import { Hero } from './components/Hero';
+import { Footer } from './components/Footer';
+import { Work } from './components/Work';
+import { Choice } from './components/Choice';
+import { Launchpad } from './components/Launchpad';
+import  Faq  from './components/Faq';
+
+import './style/Launchpad.css';
+import './style/Footer.css';
+import './style/MainContent.css';
+import './style/Work.css';
+import './style/Choice.css';
+import './style/Faq.css';
 import './App.css';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      
+      <Navbaar></Navbaar>
+      <Hero></Hero>
+      <Work></Work>
+      <Choice></Choice>
+      <Launchpad></Launchpad>
+      <Faq></Faq>
+
+      <Footer></Footer>
+
     </div>
   );
+
+
 }
 
 export default App;

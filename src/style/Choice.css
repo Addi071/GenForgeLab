@@ -1,0 +1,238 @@
+.choice-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #131625, #0d1125);
+
+}
+
+    .choiceimg{
+        width: 20%;
+    }
+
+    .ch-card-txt{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+.heading-sec{
+    /* background-color: aqua; */
+    /* width: 40vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    z-index: 30;
+    /* background-color: turquoise; */
+}
+
+/* .blur-bg {
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support 
+} */
+
+.choice-head{
+    font-size: 3rem;
+    font-weight: 800;
+    word-wrap:break-word ;
+    text-align: center;
+    color: #F3F4E5;
+    width: 100%
+    
+}
+
+.card-sec{
+    height: auto;
+    width: 95vw;
+    /* background-color: #F3F4E5; */
+    margin: auto;
+
+}
+
+.choice-card{
+        background-color: #ECF4E5;
+        width: auto;
+        min-height: 45vh;
+        max-height: auto;
+        border-radius: 3rem;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2rem;
+        z-index: 4;
+    }
+
+    .card-sec1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cardh{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        font-weight: 800;
+        word-break:keep-all;
+    }
+
+    .cardp{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+
+@media (min-width: 768px){
+    
+    .choiceimg{
+        width: 20%;
+    }
+
+    .ch-card-txt{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+.heading-sec{
+    /* background-color: aqua; */
+    /* width: 40vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* background-color: turquoise; */
+}
+
+/* .blur-bg {
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support 
+} */
+
+.choice-head{
+    font-size: 4rem;
+    font-weight: 800;
+    word-wrap:break-word ;
+    text-align: center;
+    color: #F3F4E5;
+    width: 100%
+    
+}
+
+.card-sec{
+    height: auto;
+    width: 95vw;
+    /* background-color: #F3F4E5; */
+    margin: auto;
+
+}
+
+.choice-card{
+        background-color: #ECF4E5;
+        width: auto;
+        min-height: 45vh;
+        max-height: auto;
+        border-radius: 3rem;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2rem;
+        z-index: 4;
+    }
+
+    .card-sec1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cardh{
+        font-size: 3.5rem;
+        line-height: 3rem;
+        font-weight: 800;
+        word-break:keep-all;
+    }
+
+    .cardp{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1024px) {
+    .choiceimg{
+        width: 20%;
+    }
+
+    .ch-card-txt{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .choice-sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        overflow-x: hidden;
+    }
+
+    .heading-sec{
+    /* background-color: aqua; */
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    }
+
+    .blur-bg {
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur( 0px); /* Safari support */
+    }
+
+    .card-sec{
+        height: auto;
+        width: 40vw;
+
+    }
+
+    .choice-head{
+        font-size: 6rem;
+        font-weight: 800;
+        word-wrap:break-word ;
+        text-align: center;
+        color: #F3F4E5;
+    }
+
+    .choice-card{
+        background-color: #ECF4E5;
+        width: auto;
+        min-height: 55vh;
+        max-height: auto;
+        border-radius: 3rem;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2rem;
+        z-index: 4;
+    }
+
+    .card-sec1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cardh{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        font-weight: 800;
+        word-break:keep-all;
+    }
+
+    .cardp{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}

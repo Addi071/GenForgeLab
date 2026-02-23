@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Stack Sans Notch";
+  src: url("./assets/fonts/StackSansNotch-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* variable font supports all weights */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Science Gothic";
+  src: url("./assets/fonts/ScienceGothic-VariableFont_CTRS,slnt,wdth,wght.ttf") format("truetype");
+  font-weight: 100 900; /* variable font supports all weights */
+  font-style: normal;
+}

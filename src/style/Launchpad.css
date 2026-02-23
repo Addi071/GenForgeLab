@@ -1,0 +1,285 @@
+.launchpad{
+    padding-top: 7rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+        background: linear-gradient(to bottom, #0d1125, #10131f);
+
+}
+
+.l-head{
+    width: 90%;
+    font-size: 3rem;
+    text-align: left;
+    color: #F3F4E5;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Science Gothic', 'Stack Sans Notch';
+    word-break: break-all;
+    line-height: 3rem;
+    /* margin-left: 2rem; */
+}
+
+.l-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F3F4E5;
+}
+
+
+.l-svg1, .l-svg4{
+    width: 70%;
+}
+
+.l-svg-con1, .l-svg-con4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.l-svg2, .l-svg3{
+    width: 70%;
+}
+
+.l-svg-con2, .l-svg-con3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.l-sec-1, .l-sec-3{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    background-color: #f3808000;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+.l-sec-2, .l-sec-4{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    background-color: #f3808000;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+.l-sec-1-con, .l-sec-2-con, .l-sec-3-con, .l-sec-4-con{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 50%;
+    background-color: rgba(196, 196, 58, 0);
+}
+
+.l-sec-1-hn, .l-sec-2-hn, .l-sec-3-hn, .l-sec-4-hn{
+    font-size: 2rem;
+    font-family:'Stack Sans Notch', 'Science Gothic';
+    font-weight: 800;
+    line-height: 4rem;
+}
+
+.l-sec-1-h, .l-sec-2-h, .l-sec-3-h, .l-sec-4-h{
+    font-size: 2rem;
+    font-family:'Stack Sans Notch', 'Science Gothic';
+    font-weight: 800;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.l-sec-1-p, .l-sec-2-p, .l-sec-3-p, .l-sec-4-p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family:'Stack Sans Notch', 'Science Gothic';   
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.progress-wrap1, .progress-wrap2, .progress-wrap3, .progress-wrap4 {
+  width: 100%;
+  height: 20px;
+  background: #ddd;
+  overflow: hidden;
+  border-radius: 3rem;
+}
+
+.progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4 {
+  width: 100%;
+  height: 100%;
+  background: #5b66f8;
+  transform-origin: left center;
+  transform: scaleX(0); /* start empty */
+}
+
+@media (min-width: 700px){
+.launchpad{
+    padding-top: 4rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.l-head{
+    width: 85%;
+    display: flex;
+    font-size: 6rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Science Gothic', 'Stack Sans Notch';
+    font-weight: 600;
+    word-break: break-all;
+    color: #F3F4E5;
+    line-height: 7rem;
+}
+
+.l-svg1, .l-svg4{
+    width: 70%;
+}
+
+.l-svg-con1, .l-svg-con4{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.l-svg2, .l-svg3{
+    width: 70%;
+}
+
+.l-svg-con2, .l-svg-con3{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.l-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F3F4E5;
+}
+
+.l-sec-1{
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: #f3808000;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 3rem 0;
+}
+
+.l-sec-3{
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: #f3808000;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 3rem 0;
+}
+
+.l-sec-2, .l-sec-4{
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: #f3808000;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin: 3rem 0;
+}
+
+.progress-wrap1, .progress-wrap2, .progress-wrap3, .progress-wrap4 {
+  width: 45vw;
+  height: 20px;
+  background: #ddd;
+  overflow: hidden;
+  border-radius: 3rem;
+}
+
+.progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4 {
+  width: 100%;
+  height: 100%;
+  background: #5b66f8;
+  transform-origin: left center;
+  transform: scaleX(0); /* start empty */
+}
+
+.l-sec-1-con{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100%;
+    background-color: rgba(124, 124, 43, 0);
+    width: 60%;
+}
+
+.l-sec-1-hn{
+    font-size: 3rem;
+    font-family:'Stack Sans Notch', 'Science Gothic';
+    font-weight: 800;
+    line-height: 6rem;
+}
+.l-sec-1-h{
+    font-size: 3rem;
+    font-family:'Stack Sans Notch', 'Science Gothic';
+    font-weight: 800;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.l-sec-1-p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family:'Stack Sans Notch', 'Science Gothic';   
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+
+.l-sec-2-con, .l-sec-3-con, .l-sec-4-con{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100%;
+    background-color: rgba(153, 153, 42, 0);
+    width: 60%;
+}
+
+.l-sec-2-hn, .l-sec-3-hn, .l-sec-4-hn{
+    font-size: 3rem;
+    font-family:'Stack Sans Notch', 'Science Gothic';
+    font-weight: 800;
+    line-height: 6rem;
+}
+.l-sec-2-h, .l-sec-3-h, .l-sec-4-h{
+    font-size: 3rem;
+    font-family:'Stack Sans Notch', 'Science Gothic';
+    font-weight: 800;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.l-sec-2-p, .l-sec-3-p, .l-sec-4-p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family:'Stack Sans Notch', 'Science Gothic';   
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+}
