@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/images/gfl22.png'
 
 export const Navbaar = () => {
   return (
@@ -7,7 +8,7 @@ export const Navbaar = () => {
 
       <div className='border border-white/20 mt-8 backdrop-blur-3xl rounded-3xl flex items-center justify-between pd mx-auto  nav-h nav'>
 
-        <img src="./gfl22.png" alt="logo" className='logo' />
+        <img src={logo} alt="logo" className='logo' />
 
         <svg
           className="menu-icon"
