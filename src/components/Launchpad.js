@@ -148,7 +148,7 @@ return (
                 <div className="l-sec-1-con" ref={con1Ref}>
                     <h1 className="l-sec-1-hn">01</h1>
                     <h1 className="l-sec-1-h">Knowledge and strategy</h1>
-                    <p className="l-sec-1-p">We start by understanding your needs and goals, then we create a clear work plan to carry out the project.</p>
+                    <p className="l-sec-1-p">GenForgeLab start by understanding your needs and goals, then we create a clear work plan to carry out the project.</p>
 
                     <div className="l-sec-1-progress-bar">
 
@@ -169,7 +169,7 @@ return (
                 <div className="l-sec-2-con" ref={con2Ref}>
                     <h1 className="l-sec-2-hn">02</h1>
                     <h1 className="l-sec-2-h">Creating a custom design</h1>
-                    <p className="l-sec-2-p">Next, We design a layout tailored to your brand and audience.</p>
+                    <p className="l-sec-2-p">Next, GenForgeLab design a layout tailored to your brand and audience.</p>
 
                     <div className="l-sec-2-progress-bar">
 
@@ -190,7 +190,7 @@ return (
                 <div className="l-sec-3-con" ref={con3Ref}>
                     <h1 className="l-sec-3-hn">03</h1>
                     <h1 className="l-sec-3-h">Development and testing</h1>
-                    <p className="l-sec-3-p">we bring the project to life, ensuring everything works perfectly through thorough testing.</p>
+                    <p className="l-sec-3-p">GenForgeLab bring the project to life, ensuring everything works perfectly through thorough testing.</p>
 
                     <div className="l-sec-3-progress-bar">
 
@@ -211,7 +211,7 @@ return (
                 <div className="l-sec-4-con" ref={con4Ref}>
                     <h1 className="l-sec-4-hn">04</h1>
                     <h1 className="l-sec-4-h">Launch and support</h1>
-                    <p className="l-sec-4-p">Finally, We launch your project online and stay by your side for continuous support and improvements.</p>
+                    <p className="l-sec-4-p">Finally, GenForgeLab launch your project online and stay by your side for continuous support and improvements.</p>
 
                     <div className="l-sec-4-progress-bar">
 
