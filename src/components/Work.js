@@ -224,7 +224,7 @@ export const Work = () => {
                   <h1 className='wordpress-heading'>WordPress Support</h1>
 
                   <p className='wordpress-text'>If your WordPress site has errors, bugs, slow performance,
-                    or needs updates, our support service is here to help. We diagnose and fix issues, boost speed, improve
+                    or needs updates, GenForgeLab support service is here to help. We diagnose and fix issues, boost speed, improve
                     security, and keep your site running smoothly. With fast and reliable support, you’ll have a stable, secure,
                     high-performing WordPress site—without the stress.
                   </p>
