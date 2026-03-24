@@ -344,7 +344,7 @@ gsap.from(card1Ref.current, {
 
                     <h2 className="cardh">Unique designs for your brand</h2>
 
-                    <p className="cardp">Most websites online look the same, making them easily forgettable. We create custom, visually appealing designs that truly represent your brand.</p>
+                    <p className="cardp">Most websites online look the same, making them easily forgettable. GenForgeLab create custom, visually appealing designs that truly represent your brand.</p>
 
                 </div>
                 
@@ -370,7 +370,7 @@ gsap.from(card1Ref.current, {
                     
                     <h2 className="cardh">Hassle-free user experience and functionality</h2>
 
-                    <p className="cardp">We take care of the little details to make your website bug-free, pixel-perfect, and easy to navigate.</p>
+                    <p className="cardp">GenForgeLab take care of the little details to make your website bug-free, pixel-perfect, and easy to navigate.</p>
 
                 </div>
                 
@@ -383,7 +383,7 @@ gsap.from(card1Ref.current, {
 
                     <h2 className="cardh">Websites built for easy updates</h2>
 
-                    <p className="cardp">No one likes being stuck waiting for tech support to make simple changes. That's why we build your site with an easy-to-use backend, so you can easily update your content.</p>
+                    <p className="cardp">No one likes being stuck waiting for tech support to make simple changes. That's why GenForgeLab build your site with an easy-to-use backend, so you can easily update your content.</p>
                     
                 </div>
             
