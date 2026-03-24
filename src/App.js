@@ -22,7 +22,7 @@ function App() {
     <div>
       <Helmet>
         <title>GenForgeLab | Web Development & Digital Solutions</title>
-
+        <meta name="google-site-verification" content="XWwne_Mno5TvcT43k7Wr4wmdGjDv51mZMEO1roTyK3Y" />
         <meta
           name="description"
           content="GenForgeLab builds modern websites, web apps, and digital solutions for businesses."
