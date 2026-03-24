@@ -1,5 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
 
+Sitemap: https://genforgelab.vercel.app/sitemap.xml
 
